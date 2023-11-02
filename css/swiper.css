@@ -1,0 +1,84 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper {
+    width: 40%;
+    height: 60%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .slide1{
+    background-image:url("https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dwb1d6bc9f/images/hi-res/est23417_blue_3.jpg?sw=800&sh=1200");
+    height:500px;
+    width:100%;
+    background-size: cover;
+  }
+
+  .slide1:hover{
+    background-image:url("https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw524a8fd8/images/hi-res/eet23513_off-white_1.jpg?sw=800&sh=1200")
+  }
+.image{
+background-image:url("https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Library-Sites-KhaadiSharedLibrary/default/dw544f69f7/images/NewFabrics-HomepageCategory.jpg");
+ width: 50%; 
+ height: 80vh;
+ background-size: cover;
+ background-position: bottom;
+ position: relative;
+}
+.fabrics{
+  display: flex;
+}
+.clip-image{
+  clip-path: polygon(100% 0, 3% 0, 100% 100%);
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 100px;
+}
+.navbar{
+  background-color: white;
+  height:80px;
+  display:flex;
+  justify-content: space-evenly;
+
+}
+.nav-list ul{
+  display:flex;
+  gap:10px;
+}
+.nav-list ul li{
+  list-style-type: none;
+}

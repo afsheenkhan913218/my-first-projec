@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/CSS/swiper.css">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/> 
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo"><img src="https://pk.khaadi.com/on/demandware.static/Sites-Khaadi_PK-Site/-/default/dw05738aae/images/logo.svg" height="100px" width="100px"/></div>
+
+    <div class="nav-list"><ul><li>Home</li><li>About</li><li>Contact</li></ul></div>
+    <div class="track"></div>
+  </nav>
+
+  <div class="fabrics">
+    <div class="image">
+      <div class="clip-image">
+        </div>
+        </div>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><div class="slide1"></div></div>
+          <div class="swiper-slide"><img src="https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dwca155451/images/hi-res/est23417_blue_2.jpg?sw=400&sh=600"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      </div>
+    
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script>
+        var swiper = new Swiper(".mySwiper",{
+          slidesPerView: 2,
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+      </script>
+</body>
+</html>
